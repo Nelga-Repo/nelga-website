@@ -5,8 +5,16 @@
 body {
   background-color: #E3E3E3;
   font-family: 'Rubik', sans-serif;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 55px;
+  box-sizing: border-box;
 }
 
 .mobile-none {
   display: none;
+}
+
+html {
+  height: 100%;
 }
