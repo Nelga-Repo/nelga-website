@@ -1,15 +1,16 @@
 .header {
   background-color: #212A3F;
   width: 100%;
-  height: 65px;
+  height: auto;
   display: flex;
   justify-content: center;
+  padding: 15px 0px;
 }
 
 .sizing-header{
   max-width: 1400px;
   width: 1400px;
-  height: 65px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -25,24 +26,44 @@
 }
 
 .menu {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .menu a {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   color: rgba(131, 149, 190, 1);
   font-size: 14px;
 }
 
 .menu a:hover {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   color: #fff;
   transition: 0.3s;
 }
 
-.menu a:active {
+.menu a:enabled {
   color: #fff;
   transition: 0.3s;
+}
+
+.full-menu {
+  display: flex;
+  align-items: center;
+}
+
+.git-btn-text-1 {
+  padding: 8px 20px 8px 20px;
+  border: solid 2px #8ab839;
+  border-radius: 4px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 10px;
+  background-color: #8ab839;
+  color: white !important;
+}
+
+.git-btn-text-1:hover {
+  background-color: transparent;
 }
