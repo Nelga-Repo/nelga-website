@@ -1,0 +1,44 @@
+/** -- Code par Sébastien Joumel A.k.a "Nelga" **/
+
+.h-responsive{
+  width: 100%;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.menu-responsive{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h-responsive a{
+  color: #34495e;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header{
+  display: none;
+}
+
+.h-responsive-1{
+  background-color: #16a085;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 5px;
+  height: 60px;
+}
+
+.footer{
+  display: none;
+}

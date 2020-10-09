@@ -1,0 +1,130 @@
+<!-- Code par Sébastien Joumel a.k.a "Nelga" -->
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<!-- En tête et direction CSS-->
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" media="screen and (max-width: 740px)" href="css/navbar-responsive.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/body-responsive.css">
+    <link rel="stylesheet" href="css/parcours.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Nelga | Design et Développement</title>
+  </head>
+  <!-- Corps et contenu de la page -->
+  <body>
+  <!-- Menu responsive -->
+    <div class="h-responsive-1">
+      <h4>Nelga</h4>
+      <a href="mailto:joe@example.com?subject=Bonjour" class="btn-secondary">Contact</a>
+    </div>
+    <div class="h-responsive">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="certifications.html">Diplômes</a>
+        <a href="missions.html">Missions</a>
+        <a href="mailto:joe@example.com?subject=Bonjour">Contact</a>
+    </div>
+    <!-- En-tête version PC -->
+    <header class="header">
+      <div class="logo">
+        <div class="color-logo">
+          <h3>Nelga</h3>
+        </div>
+        <a href="index.html">Accueil</a>
+        <a href="#" class="nope">Projets</a>
+        <a href="#" class="nope">Certifications</a>
+        <a href="#" class="nope">Dernières Missions</a>
+      </div>
+      <div class="menu">
+        <a href="#" class="btn-secondary">Connexion</a>
+        <a href="mailto:joe@example.com?subject=Bonjour" class="btn-primary">Contact</a>
+      </div>
+    </header>
+    <!-- Contenu de la page sous-entête -->
+    <main class="main">
+      <div class="head-main">
+        <div class="welcome">
+          <div class="img1">
+            <img class="scale-up-tl" src="images/code.svg" alt="">
+          </div>
+          <div class="text1">
+            <h3>Bienvenue sur mon site</h3>
+            <p>Vous trouverez ici tout mon travail, de l'apprentissage jusqu'aux projets.</p>
+            <a href="#" class="btn-1">Voir les projets</a>
+          </div>
+        </div>
+        <div class="view-project">
+          <div class="img2">
+            <img src="images/contact.svg" class="scale-up-tl" alt="">
+          </div>
+          <div class="text2">
+            <h3>Travaillons ensemble</h3>
+            <p style="color: #fff;">Tout mes projets sont pour l'instant des résultats et tests de mon apprentissage</p>
+            <a href="mailto:joe@example.com?subject=Bonjour" class="btn-2">Prendre contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-parcours">
+        <div class="parcours">
+          <div class="title">
+            <h3>Mon apprentissage</h3>
+            <hr>
+          </div>
+          <div class="shemas">
+            <div class="cours">
+              <h4>HTML5 et CSS3</h4>
+              <p class="p-responsive">Plateforme OC et Grafikart</p>
+            </div>
+            <div class="progress">
+              <p>Progression</p>
+              <progress value="95" max="100">95%</progress>
+            </div>
+          </div>
+          <div class="shemas">
+            <div class="cours">
+              <h4>Javascript</h4>
+              <p class="p-responsive">Essentiellement sur Grafikart</p>
+            </div>
+            <div class="progress">
+              <p>Progression</p>
+              <progress value="60" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+        <div class="plateformes">
+          <div class="title">
+            <h3>Plateforme d'apprentissage</h3>
+            <hr>
+          </div>
+          <div class="img-plat">
+            <a href="https://grafikart.fr/"><img src="images/grafikart.jpg" class="grafikart" alt=""></a>
+            <a href="https://openclassrooms.com/"><img src="images/oc.png" class="oc" alt=""></a>
+          </div>
+        </div>
+        <div class="main-cert">
+          <div class="title">
+            <h3>Mes certifications</h3>
+            <hr>
+          </div>
+          <div class="img-plat-2">
+            <div class="cert-box">
+              <p>HTML5</p>
+              <a href="#" class="btn-cert-off">Voir</a>
+            </div>
+            <div class="cert-box">
+              <p>CSS3</p>
+              <a href="#" class="btn-cert-off">Voir</a>
+            </div>
+            <div class="cert-box">
+              <p>JAVASCRIPT</p>
+              <a href="#" class="btn-cert-off">Voir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

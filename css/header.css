@@ -1,0 +1,48 @@
+.header {
+  background-color: #212A3F;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.sizing-header{
+  max-width: 1400px;
+  width: 1400px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo img {
+  width: 17%;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+.menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgba(131, 149, 190, 1);
+  font-size: 14px;
+}
+
+.menu a:hover {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.menu a:active {
+  color: #fff;
+  transition: 0.3s;
+}

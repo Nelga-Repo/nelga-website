@@ -1,0 +1,173 @@
+.main3 {
+  background-color: #212A3F;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 80px 0px;
+}
+
+.main-3-sizing {
+  max-width: 1400px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.compote{
+  background-color: #E4E5E8;
+  width: 40%;
+  height: 200px;
+  padding: 30px;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.progress-language {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.comp-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.comp-progress-left {
+  margin-right: 10px;
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.comp-progress-left img{
+  width: 40px;
+}
+
+.comp-progress-left p{
+  font-weight: 700;
+  padding: 10px;
+}
+
+.comp-progress-right {
+  margin-left: 10px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.comp-progress-right img{
+  width: 40px;
+}
+
+.comp-progress-right p{
+  font-weight: 700;
+  padding: 10px;
+}
+
+.bar {
+  background-color: #E4E5E8;
+  width: 80%;
+  max-width: 100px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.bar-progress1 {
+  background-color: #8AB839;
+  width: 80%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress2 {
+  background-color: #8AB839;
+  width: 75%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress3 {
+  background-color: #8AB839;
+  width: 30%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress4 {
+  background-color: #8AB839;
+  width: 10%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress5 {
+  background-color: #8AB839;
+  width: 85%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress6 {
+  background-color: #8AB839;
+  width: 75%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress7 {
+  background-color: #8AB839;
+  width: 95%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-progress8 {
+  background-color: #8AB839;
+  width: 70%;
+  height: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pourcent {
+  font-weight: normal !important;
+  font-size: 12px !important;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+/** -- Code par Sébastien Joumel A.k.a "Nelga" **/
+
+
+.head-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+.welcome{
+  width: 100%;
+  height: 300px;
+  margin-right: 80px;
+}
+
+.welcome p{
+  width: 300px;
+}
+
+.view-project{
+  width: 100%;
+  height: 300px;
+  margin-right: 80px;
+}
+
+.view-project p{
+  width: 300px;
+}
+
+.main-parcours{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.parcours{
+  width: 100% !important;
+  min-width: 400px;
+  margin-bottom: 20px;
+}
+
+.plateformes{
+  width: 100% !important;
+  margin-bottom: 20px;
+  min-width: 400px !important;
+}
+
+.img-plat{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.oc{
+  padding-right: 18px;
+}
+
+.main-cert{
+  width: 100% !important;
+  margin-bottom: 20px;
+  min-width: 400px !important;
+  margin-right: 15px !important;
+}
+
+.img-plat-2{
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
