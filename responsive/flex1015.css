@@ -92,3 +92,29 @@
 .project-img {
   display: none;
 }
+
+.comp-progress-left {
+  width: 100%;
+  max-width: 350px;
+}
+
+.comp-progress-right {
+  width: 100%;
+  max-width: 350px;
+}
+
+.compote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-sizing {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-info {
+  width: 80%;
+  margin-top: 20px;
+}
